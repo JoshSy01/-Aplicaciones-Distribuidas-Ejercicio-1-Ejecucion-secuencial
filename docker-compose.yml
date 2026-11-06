@@ -1,0 +1,7 @@
+services: 
+  python-app:
+    image: python:3.11-alpine
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: python Secuencial_lavado_ropa.py
